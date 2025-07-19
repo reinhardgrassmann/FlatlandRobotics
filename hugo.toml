@@ -1,4 +1,4 @@
 baseURL = 'https://reinhardgrassmann.github.io/FlatlandRobotics/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'textify3'
+theme = 'texify3'
