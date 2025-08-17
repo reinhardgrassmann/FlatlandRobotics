@@ -1,0 +1,13 @@
+baseURL = "https://reinhardgrassmann.github.io/FlatlandRobotics/"
+languageCode = "en-us"
+title = "Flatland Robotics"
+theme = "hugo-texify3"
+
+[params]
+  subtitle = "Exploring Robotics in Flatland"
+  dateFormat = "2006-01-02"
+  showTableOfContents = true
+  tocOpen = true
+  tocDepth = 3
+  math = true
+  mermaid = true
