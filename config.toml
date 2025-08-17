@@ -2,12 +2,61 @@ baseURL = "https://reinhardgrassmann.github.io/FlatlandRobotics/"
 languageCode = "en-us"
 title = "Flatland Robotics"
 theme = "hugo-texify3"
+disqusShortname = ""
+enableGitInfo = true
+enableRobotsTXT = true
+hasCJKLanguage = false
+rssLimit = 7
 
 [params]
-  subtitle = "Exploring Robotics in Flatland"
-  dateFormat = "2006-01-02"
-  showTableOfContents = true
-  tocOpen = true
-  tocDepth = 3
-  math = true
-  mermaid = true
+    subtitle = "Exploring Robotics in Flatland"
+    dateFormat = "02 Jan 2006"
+    showTableOfContents = true
+    tocOpen = true
+    tocDepth = 3
+    math = true
+    mermaid = true
+    title = "Flatland Robotics"
+    github = "https://github.com/reinhardgrassmann"
+
+[taxonomies]
+    tags = [
+        "Continuum Robotics",
+        "Serial-Kinematic Robot",
+        "DARC",
+        "quaternions",
+        "complex number",
+        "dual number",
+        "smoothness"
+    ]
+    categories = [
+        "Tutorial",
+        "Paper Review",
+        "Book Review",
+        "Mathematics"
+    ]
+    series = [
+        "Understanding Rotations",
+        "Dynamics",
+        "Kinematics",
+        "Control Theory",
+        "Trajectory Generation",
+        "Notes on Hypercomplex Numbers"
+    ]
+
+
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
