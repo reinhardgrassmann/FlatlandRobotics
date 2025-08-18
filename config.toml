@@ -21,19 +21,23 @@ rssLimit = 7
 
 [taxonomies]
     tags = [
-        "Continuum Robotics",
-        "Serial-Kinematic Robot",
+        "continuum robotics",
+        "serial-kinematic robot",
         "DARC",
         "quaternions",
         "complex number",
         "dual number",
-        "smoothness"
+        "smoothness",
+        "screw theory",
+        "Lie",
+        "nonholonomic"
     ]
     categories = [
         "Tutorial",
         "Paper Review",
         "Book Review",
-        "Mathematics"
+        "Mathematics",
+        "Future Perspective"
     ]
     series = [
         "Understanding Rotations",
