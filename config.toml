@@ -25,12 +25,22 @@ rssLimit = 7
 #        "serial-kinematic robot",
 #        "DARC",
 #        "quaternions",
-#        "complex number",
-#        "dual number",
+#        "complex numbers",
+#        "dual numbers",
 #        "smoothness",
 #        "screw theory",
 #        "Lie",
-#        "nonholonomic"
+#        "nonholonomic",
+#        "revisit",
+#        "retrospectiv",
+#        "dual quaternions",
+        "philosophy of science",
+        "orientation",
+        "inverse problem",
+        "redundancy",
+        "trigonomtric function",
+        "underactuation",
+        "vision"
 #    ]
 #    categories = [
 #        "Tutorial",
