@@ -34,13 +34,13 @@ rssLimit = 7
 #        "revisit",
 #        "retrospectiv",
 #        "dual quaternions",
-        "philosophy of science",
-        "orientation",
-        "inverse problem",
-        "redundancy",
-        "trigonomtric function",
-        "underactuation",
-        "vision"
+#        "philosophy of science",
+#        "orientation",
+#        "inverse problem",
+#        "redundancy",
+#        "trigonomtric function",
+#        "underactuation",
+#        "vision"
 #    ]
 #    categories = [
 #        "Tutorial",
