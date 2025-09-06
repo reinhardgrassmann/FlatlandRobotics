@@ -32,22 +32,25 @@ rssLimit = 7
 #        "Lie",
 #        "nonholonomic",
 #        "revisit",
-#        "retrospectiv",
+#        "retrospective",
 #        "dual quaternions",
 #        "philosophy of science",
 #        "orientation",
 #        "inverse problem",
 #        "redundancy",
-#        "trigonomtric function",
+#        "trigonometric function",
 #        "underactuation",
-#        "vision"
+#        "vision",
+#        "matrix exponential",
+#        "back-of-the-envelope calculation"
 #    ]
 #    categories = [
 #        "Tutorial",
 #        "Paper Review",
 #        "Book Review",
 #        "Mathematics",
-#        "Future Perspective"
+#        "Future Perspective",
+#        "Opinion"
 #    ]
 #    series = [
 #        "Understanding Rotations",
