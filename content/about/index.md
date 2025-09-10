@@ -20,3 +20,7 @@ These exchanges have greatly inspired several of the blog posts shared here.
 -   [Jonathan Gustafsson Frennert](https://jonathanfrennert.github.io/)
 
 
+
+And, I greatly acknowledge the funding and financial support of this project by wonderful and generous people.
+
+-   Meinhard V. Grassmann
