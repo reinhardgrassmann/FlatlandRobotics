@@ -11,7 +11,7 @@ _Currently, this page is WIP._
 
 ---
 
-**Acknowledgement**
+**I Appreciate You**
 
 This is a general acknowledgment to the wonderful people who engaged in interesting door-to-door conversations and wild whiteboard discussions on related topics.
 These exchanges have greatly inspired several of the blog posts shared here.
@@ -21,6 +21,6 @@ These exchanges have greatly inspired several of the blog posts shared here.
 
 
 
-And, I greatly acknowledge the funding and financial support of this project by wonderful and generous people.
+And, I greatly acknowledge funding and financial support of this project by wonderful and generous people.
 
 -   Meinhard V. Grassmann
