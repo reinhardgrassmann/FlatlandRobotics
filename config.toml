@@ -27,6 +27,7 @@ rssLimit = 7
 #        "quaternions",
 #        "complex numbers",
 #        "dual numbers",
+#        "hyper-complex numbers",
 #        "smoothness",
 #        "screw theory",
 #        "Lie",
@@ -43,7 +44,9 @@ rssLimit = 7
 #        "vision",
 #        "matrix exponential",
 #        "back-of-the-envelope calculation",
-#        "blue sky"
+#        "blue sky",
+#        "learning-based",
+#        "model-based"
 #    ]
 #    categories = [
 #        "Tutorial",
