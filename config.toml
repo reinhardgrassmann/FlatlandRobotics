@@ -42,7 +42,8 @@ rssLimit = 7
 #        "underactuation",
 #        "vision",
 #        "matrix exponential",
-#        "back-of-the-envelope calculation"
+#        "back-of-the-envelope calculation",
+#        "blue sky"
 #    ]
 #    categories = [
 #        "Tutorial",
