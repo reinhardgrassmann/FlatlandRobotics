@@ -58,17 +58,14 @@ The points provide an overview, but the topics are not limited to them.
 
 - Intuition pump:
   - from 2d flat space to 3d spatial space
-
 - Considered robotic fields:
   - classical serial-kinematic robotics
   - continuum robotics
   - mobile and humanoid robotics
-
 - Fun with mathematics:
   - from complex number to quaternion
   - from hyper-complex numbers to dual-quaternions
   - matrix multiplication and trigonometric functions
-
 - Topics in robotics:
   - automatic modelling
   - kinematics, statics, and dynamics
@@ -84,5 +81,7 @@ While most of the blog posts are unorganized, I plan to group several of them in
 I plan to have a series on _"Understanding Rotations,"_ _"Dynamics,"_ _"Kinematics,"_ _"Control Theory,"_ _"Smooth Trajectory Generation,"_ and _"Notes on Hypercomplex Numbers."_
 
 
+---
+**Edit:**
 
-_Edit:_ Sep. 12, 2025. Just reformating and refactoring.
+Updated Sep. 12, 2025: Just reformating and refactoring.

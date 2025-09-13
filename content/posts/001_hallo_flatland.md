@@ -13,4 +13,7 @@ This is my first post!
 
 
 
-_Edit:_ Sep. 12, 2025. Just reformating and refactoring. [Nothing to see here. Please disperse.](https://i.imgur.com/sUpua6W.gif)
+---
+**Edit:**
+
+Updated Sep. 12, 2025: Just reformating and refactoring. [Nothing to see here. Please disperse.](https://i.imgur.com/sUpua6W.gif)
