@@ -259,7 +259,7 @@ So, are our maths tools there yet?
 Perhaps, it is time to look into those old pure mathematics write-ups?
 It's like going to Göttingen in Germany to read Gauss's unpublished notebooks and hope for serendipity.
 Mathematicians used to do it, even if not all mathematics maps onto physics and the real world.
-Maybe it is time and, we should look into contemporary obscure pure mathematics?
+Maybe it is time to look into contemporary obscure pure mathematics?
 
 
 ## Interesting Reads

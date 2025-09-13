@@ -512,3 +512,7 @@ For example, to describe a system in control theory.
 I use [$\KaTeX$](https://katex.org/) to create wonderful looking equations.
 Unfortunately, not all $\LaTeX$ functions/commands are possible.
 Available and supported ones are listed in this online reference of [supported $\TeX$ functions](https://katex.org/docs/supported.html).
+
+
+
+_Edit:_ Sep. 12, 2025. Just reformating and refactoring.

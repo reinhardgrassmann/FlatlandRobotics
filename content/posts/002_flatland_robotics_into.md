@@ -1,7 +1,7 @@
 +++
 date = '2025-08-18'
 draft = false
-title = '002_flatland_robotics_into'
+title = 'Intro to Flatland Robotics'
 #tags = [
 #    "continuum robotics",
 #    "serial robot",
@@ -82,3 +82,7 @@ The points provide an overview, but the topics are not limited to them.
 
 While most of the blog posts are unorganized, I plan to group several of them into short series. 
 I plan to have a series on _"Understanding Rotations,"_ _"Dynamics,"_ _"Kinematics,"_ _"Control Theory,"_ _"Smooth Trajectory Generation,"_ and _"Notes on Hypercomplex Numbers."_
+
+
+
+_Edit:_ Sep. 12, 2025. Just reformating and refactoring.
