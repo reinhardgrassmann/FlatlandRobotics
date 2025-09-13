@@ -90,7 +90,7 @@ This would look like
 $$
 z = 
 \begin{bmatrix}
-    a\\
+    a\\\\
     b
 \end{bmatrix}
 \quad\in\mathbb{R}^2
@@ -109,7 +109,7 @@ The matrix
 $$
 z = 
 \begin{bmatrix}
-    a & -b \\
+    a & -b \\\\
     b & a
 \end{bmatrix}
 \quad\in\mathbb{R}^{2 \times 2}
@@ -124,12 +124,12 @@ $$
 z = 
 a
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix}+
 b
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix}
 .
@@ -193,26 +193,26 @@ $$
 \exp\left(
 a
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix} +
 b
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix}
 \right) =
 \exp\left(
 a
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix}
 \right)
 \exp\left(
 b
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix}
 \right).
@@ -226,7 +226,7 @@ $$
 \exp\left(
 a
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix}
 \right) \not=
@@ -235,7 +235,7 @@ a
 \right)
 \exp\left(
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix}
 \right).
@@ -251,23 +251,23 @@ the first one results in
 $$
 \exp\left(
 \begin{bmatrix}
-    a & 0 \\
+    a & 0 \\\\
     0 & a
 \end{bmatrix}
 \right) = 
 \sum_{n=0}^{\infty} \frac{1}{n!}
 \begin{bmatrix}
-    a & 0 \\
+    a & 0 \\\\
     0 & a
 \end{bmatrix}^n  = 
 \left(\sum_{n=0}^{\infty} \frac{a^n}{n!}\right)
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix}  =
 \exp\left(a\right)
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix} .
 $$
@@ -281,11 +281,11 @@ The zero-power, _i.e._,
 
 $$
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix}^0  =
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix},
 $$
@@ -294,11 +294,11 @@ and the first-power, _i.e._,
 
 $$
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix}^1  =
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix},
 $$
@@ -309,15 +309,15 @@ The second-power, _i.e._,
 
 $$
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix}^2  =
 \begin{bmatrix}
-    -1 & 0 \\
+    -1 & 0 \\\\
     0 & -1
 \end{bmatrix} = -
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix}
 $$
@@ -327,15 +327,15 @@ Next we have
 
 $$
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix}^3  =
 \begin{bmatrix}
-    0 & 1 \\
+    0 & 1 \\\\
     -1 & 0
 \end{bmatrix} = -
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix}
 $$
@@ -344,11 +344,11 @@ and
 
 $$
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix}^4  =
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix}
 $$
@@ -363,47 +363,47 @@ Writing down the power series like
 $$
 \exp\left(
 \begin{bmatrix}
-    0 & -b \\
+    0 & -b \\\\
     b & 0
 \end{bmatrix}
 \right) = 
 \sum_{n=0}^{\infty} \frac{1}{n!}
 \begin{bmatrix}
-    0 & -b \\
+    0 & -b \\\\
     b & 0
 \end{bmatrix}^n  =
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix} +
 \frac{b}{1!}
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix} - 
 \frac{b^2}{2!}
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix} -
 \frac{b^3}{3!}
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix} +
 \frac{b^4}{4!}
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix} + 
 \frac{b^5}{5!}
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix} -
 \frac{b^6}{6!}
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix} - 
 \cdots
@@ -415,7 +415,7 @@ By grouping the matrices leads to
 $$
 \exp\left(
 \begin{bmatrix}
-    0 & -b \\
+    0 & -b \\\\
     b & 0
 \end{bmatrix}
 \right) = 
@@ -423,14 +423,14 @@ $$
 1 - \frac{b^2}{2!} + \frac{b^4}{4!} - \frac{b^6}{6!} + \cdots
 \right)
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix}  +
 \left(
 b - \frac{b^3}{3!} + \frac{b^5}{5!} - \frac{b^7}{7!} + \cdots
 \right)
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix},
 $$
@@ -441,22 +441,22 @@ After substitution, the result is
 $$
 \exp\left(
 \begin{bmatrix}
-    0 & -b \\
+    0 & -b \\\\
     b & 0
 \end{bmatrix}
 \right) = 
 \cos\left(b\right) 
 \begin{bmatrix}
-    1 & 0 \\
+    1 & 0 \\\\
     0 & 1
 \end{bmatrix}  +
 \sin\left(b\right) 
 \begin{bmatrix}
-    0 & -1 \\
+    0 & -1 \\\\
     1 & 0
 \end{bmatrix} =
 \begin{bmatrix}
-    \cos\left(b\right)  & -\sin\left(b\right)  \\
+    \cos\left(b\right)  & -\sin\left(b\right)  \\\\
     \sin\left(b\right)  & \cos\left(b\right) 
 \end{bmatrix}.
 $$
@@ -476,13 +476,13 @@ It is a scaled rotation matrix, _i.e._,
 $$
 \exp\left(
 \begin{bmatrix}
-    a & -b \\
+    a & -b \\\\
     b & a
 \end{bmatrix} 
 \right) =
 \exp\left(a\right)
 \begin{bmatrix}
-    \cos\left(b\right)  & -\sin\left(b\right)  \\
+    \cos\left(b\right)  & -\sin\left(b\right)  \\\\
     \sin\left(b\right)  & \cos\left(b\right) 
 \end{bmatrix}.
 \tag{10}
@@ -516,6 +516,17 @@ For example, to describe a system in control theory.
 I use [$\KaTeX$](https://katex.org/) to create wonderful looking equations.
 Unfortunately, not all $\LaTeX$ functions/commands are possible.
 Available and supported ones are listed in this online reference of [supported $\TeX$ functions](https://katex.org/docs/supported.html).
+
+Use double-double backslash for matrix environment.
+```math
+$$
+\begin{bmatrix}
+    a & b \\\\
+    c & d
+\end{bmatrix}
+$$
+```
+It's a weird quirk of $\KaTeX$.
 
 
 **Edit:**
