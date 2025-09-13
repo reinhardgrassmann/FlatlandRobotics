@@ -53,4 +53,24 @@ Yoshikawa
 *Fundations of Robotics: Analysis and Control*
 The MIT Press
 
+
+## Articles
+
+Amato, Hutchinson, Garg, Billard, Rus, Tedrake, Park, and Goldberg
+(2025).
+*"Data will solve robotics and automation: True of false?": A debate*
+Science Robotics; 10 (105)
+[doi: 10.1126/scirobotics.aea7897](https://doi.org/10.1126/scirobotics.aea7897)
+
+Clement, Peretroukhin, Giamou, Leonard, Kress-Gazit, How, Milford, Brock, Gariepy, Schoellig, Roy, Siegel, Righetti, Billard, and Kelly
+*Where Do We Go From Here? Debates on the  Future of Robotics Research at ICRA 2019*
+IEEE Robotics & Automation Magazine; 10 (3)
+[doi: 10.1109/MRA.2019.2926934](https://doi.org/10.1109/MRA.2019.2926934)
+
+Goldberg
+(2025).
+*Good old-fashioned engineering can close the 100,000-year "data gap" in robotics*
+Science Robotics; 10 (105)
+[doi: 10.1126/scirobotics.aea7390](https://doi.org/10.1126/scirobotics.aea7390)
+
 ---
