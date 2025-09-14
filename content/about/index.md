@@ -18,6 +18,7 @@ These exchanges have greatly inspired several of the blog posts shared here.
 
 -   [Ameya Pore](https://ameyapores.github.io/)
 -   [Jonathan Gustafsson Frennert](https://jonathanfrennert.github.io/)
+-   [Radian Gondokaryono](https://radiang.github.io/)
 
 
 
