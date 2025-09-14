@@ -19,6 +19,9 @@ rssLimit = 7
     title = "Flatland Robotics"
     github = "https://github.com/reinhardgrassmann"
 
+[markup.goldmark.renderer]
+    unsafe = false
+
 #[taxonomies]
 #    tags = [
 #        "continuum robotics",
