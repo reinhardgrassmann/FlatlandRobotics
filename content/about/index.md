@@ -3,7 +3,7 @@ title = "About"
 date = 2025-08-17
 +++
 
-**About this Blog**
+## About this Blog
 
 _The stronger you build the foundation, the taller you can build the building._
 With that in mind, I will try build this foundation by starting with a simple setting and getting exposed to the core ideas.
@@ -14,9 +14,13 @@ I invite you to join me on this journey, a journey through Flatland Robotics.
 Read more about this:
 * [Intro to Flatland Robotics](../posts/002_flatland_robotics_into/)
 
+Think of this blog as an introduction to some subject of robotics.
+Obviously, it can only scratch the surface and, sometimes I go fancy on certain topics.
+But if you want to know more, I recommend going to the [reference page](../references/) and interesting reads of certain posts.
+Enjoy reading, learning, and digging deeper into the topics you love.
 
 
-**About this Guy**
+## About this Guy
 
 This part is to talk about myself and show that I'm credible in some sense.
 So, here we go.
@@ -40,7 +44,7 @@ Some links:
 * [LinkedIn](https://linkedin.com/in/reinhardgrassmann)
 
 
-**I Appreciate You**
+## I Appreciate You
 
 This is a general acknowledgment to the wonderful people who engaged in interesting door-to-door conversations and wild whiteboard discussions on related topics.
 These exchanges have greatly inspired several of the blog posts shared here.
