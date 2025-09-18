@@ -7,6 +7,7 @@ enableGitInfo = true
 enableRobotsTXT = true
 hasCJKLanguage = false
 rssLimit = 7
+enableEmoji = true
 
 [params]
     subtitle = "Exploring Robotics in Flatland"
@@ -20,7 +21,7 @@ rssLimit = 7
     github = "https://github.com/reinhardgrassmann"
 
 [markup.goldmark.renderer]
-    unsafe = false
+    unsafe = true
 
 #[taxonomies]
 #    tags = [
