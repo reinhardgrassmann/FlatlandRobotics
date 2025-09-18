@@ -28,6 +28,8 @@ enableEmoji = true
 #        "continuum robotics",
 #        "serial-kinematic robot",
 #        "DARC",
+#        "kinematics",
+#        "dynamics",
 #        "quaternions",
 #        "complex numbers",
 #        "dual numbers",

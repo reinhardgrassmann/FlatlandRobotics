@@ -1,11 +1,11 @@
 ---
 title: "Kinematics of a RR Robot"
-date: 2025-09-16
-description: Generic description
-categories: []
-tags: []
+date: 2025-09-18
+description: kinematics of a planar serial kinematic robot with two revolute joints
+categories: ["Tutorial"]
+tags: ["serial-kinematic robot", "kinematics", "trigonometric function"]
 toc: true
-math: false
+math: true
 draft: false
 ---
 
