@@ -12,16 +12,16 @@ draft: false
 
 
 
-The kinematics of a planar serial kinematic robot with two revolute joints, in short planar RR robot, is quite simple.
-We will use two approaches; a simple geometric derivation and concatenation of homogeneous transformation matrices.
+The kinematics of a planar serial kinematic robot with two revolute joints (also called planar RR robot) is quite simple.
+We will use two approaches" a simple geometric derivation and the concatenation of homogeneous transformation matrices.
 
-The planar RR robot is depicted in the image below, where $F_i$ are the frame of the $i^\text{th}$ coordinate system with $e_x$ and $e_y$ as their axes.
+The planar RR robot is depicted in the image below, where $F_i$ denotes the frame of the $i^\text{th}$ coordinate system with $e_x$ and $e_y$ as its axes.
 I am a bit lazy here because those vectors should get three indexes.
 However, the provided images and the context make it clear.
-This robot has link length denoted by $l_i$ for the $i^\text{th}$ link.
+This robot has link lengths denoted by $l_i$ for the $i^\text{th}$ link.
 Each link has a relative joint $q_i$.
 For the sake of simplicity, we assume that no self-collision is possible and, the joints are not restricted (_i.e._, no joint limits).
-Therefore, $q_i \in \mathbb{S}^1$, where $\mathbb{S}^1$ is a unit-sphere.
+Therefore, $q_i \in \mathbb{S}^1$, where $\mathbb{S}^1$ is a unit circle.
 
 <div style="text-align: center;">
 <svg viewBox="0 250 1000 1000" xmlns="http://www.w3.org/2000/svg">
@@ -36,7 +36,8 @@ Therefore, $q_i \in \mathbb{S}^1$, where $\mathbb{S}^1$ is a unit-sphere.
             markerUnits="strokeWidth">
             <path 
                 d="M0,0 L6,3 L0,6 Z" 
-                fill="#859900"
+                fill="#859900"The kinematics of a planar serial kinematic robot with two revolute joints, in short planar RR robot, is quite simple.
+We will use two approaches; a simple geometric derivation and concatenation of homogeneous transformation matrices.
             />
         </marker>
         <marker 
@@ -323,7 +324,7 @@ Therefore, $q_i \in \mathbb{S}^1$, where $\mathbb{S}^1$ is a unit-sphere.
 
 
 
-The kinematics provides the pose of the robot with respect to the joint angles.
+Kinematics provides the pose of the robot with respect to the joint angles.
 The pose is a list of translational and rotational values.
 Here, the pose has two translational values and one rotational value.
 The translational values, *i.e.*, $x$ and $y$, define a vector from the base frame $\mathcal{F}\raisebox{-0.25em}{\footnotesize 0}$ to the end-effector frame $\mathcal{F}\raisebox{-0.25em}{\footnotesize EE} = \mathcal{F}_2$.
@@ -340,15 +341,15 @@ x  \\\\ y \\\\ \phi
 $$
 where the three indices are omitted.
 The order is a mere convention and, I am not aware of any benefits over other permutations.
-Sometimes, you can find the use of transpose operator, which is another convent notation.
+Sometimes, you can find the use of transpose operator, which is another convenient notation.
 However, it should be noted that $\boldsymbol{X}$ is not a vector in the sense of being a proper vector.
 
 
 ## Trigonometric Relationships
 
 
-The key in finding the kinematics is to identify suitable triangles or other geometric object.
-For the RR robot, we can find two such right triangles, where the hypotenuse has the length of the link and, where each of the catheti is aligned with on of the axes of base frame $\mathcal{F}_0$.
+The key in finding the kinematics is to identify suitable triangles or other geometric objects.
+For the RR robot, we can find two such right triangles, where the hypotenuse has the length of the link and, where each of the catheti is aligned with one of the axes of base frame $\mathcal{F}_0$.
 The following image simplifies the structure of the RR robot.
 It shows a stick figure of it.
 
@@ -1148,15 +1149,15 @@ It shows a stick figure of it.
     </g>
 </svg>
 
-The left image shows the relation of the joint angles to the angle in the right angle.
-I recommend to draw a pictures with positive angles and values, in general.
+The left image shows the relation of the joint angles to the angle within the right triangle.
+In general, I recommend drawing pictures with positive angles and values.
 The first one is simply $q_1$, whereas the second one is slightly more complicated.
 It is $q_1 + q_2$, see the left image for a visualization.
 This sum is also the orientation of the end-effector denoted by $\phi$.
 Therefore, we visually derive one part of the pose.
 
 Now, we can find the contributions of each link weighted with a trigonometric function to the $x$ and $y$ coordinates of the end-effector.
-The image in the middel depicts the contribution due to the first right triangle, whereas the image on the right illustrates the contribution due to the second right triangle.
+The image in the middle depicts the contribution due to the first right triangle, whereas the image on the right illustrates the contribution due to the second right triangle.
 With that, we can sum the sine functions for the $y$ value and, we can sum the cosine functions for the $x$ value.
 
 The pose $\boldsymbol{X}$ is the result of this visual analysis and given by
@@ -1176,7 +1177,7 @@ q_1 + q_2
 .
 $$
 Geometry helps a lot and, for this simple example, finding the pose is quite straightforward.
-For more complex structure, we might want to use homogeneous transformation matrices.
+For more complex structures, we might want to use homogeneous transformation matrices.
 Let's try the vector-matrix machinery for this example.
 
 
@@ -1193,24 +1194,24 @@ T\left(\phi, x, y\right) =
 \end{bmatrix}
 \quad\in\mathbb{R}^{3 \times 3},
 $$
-where $\phi$ is a rotation along the normal axis of the plane and, $x$ and $y$ are displacement along the $e_x$ and $e_y$ axis, respectively.
+where $\phi$ is a rotation along the normal axis of the plane and, $x$ and $y$ are displacements along the $e_x$ and $e_y$ axes, respectively.
 
 To make it easier, we decompose the homogeneous transformation matrix into two simple transformations, _i.e._, pure rotation and pure translation.
 Since we deal with matrices, the order of the concatenation of pure rotation and pure translation matters.
-So, we can rotate first and translate afterward or _vice versa_.
+Thus, we can either rotate first and translate afterward, or _vice versa_.
 Both will provide different intermediate results.
 However, the end result should be the same.
 
 Moving a frame along the kinematic structure should remind us of DH parameters.
-The two different ways of decomposition should further remind us that two different notation for DH parameters exists.
+The two different ways of decomposition should further remind us that two different notations for DH parameters exist.
 
 
 ### Rotate, then Translate
 
 Imagine the configuration of the robot to be $q_1 = q_2 = 0$.
-To go from one frame $\mathcal{F}\raisebox{-0.25em}{\footnotesize $i$}$ to the another frame $\mathcal{F}\raisebox{-0.25em}{\footnotesize $i+1$}$, we first rotate around current frame and, then we slide along the $e_x$ of the rotated frame.
-We rotate and translated by an amount of $q_i$ and $l_i$, respectively.
-We can see a simple pattern of the transformation matrix, _i.e._,
+To go from one frame $\mathcal{F}\raisebox{-0.25em}{\footnotesize $i$}$ to another frame $\mathcal{F}\raisebox{-0.25em}{\footnotesize $i+1$}$, we first rotate around the current frame, then we slide along the $e_x$ of the rotated frame.
+We rotate and translate by an amount of $q_i$ and $l_i$, respectively.
+We can see a simple pattern in the transformation matrix, _i.e._,
 
 $$
 T_i\left(q_i, x_i = l_i, y_i = 0\right) =
@@ -1255,7 +1256,7 @@ T\left(q_1, q_2\right) =
 ,
 $$
 
-where I use trigonometric identities to simply the expressions.
+where I use trigonometric identities to simplify the expressions.
 
 
 
@@ -1303,7 +1304,7 @@ where I multiply an identity matrix on the left side to indicate a zero translat
 Obviously, both identity matrices do not change the result, _i.e._, Eq.(4) and Eq.(5) have the same simplified outcome.
 
 
-For the sake of completeness, the patter is slightly different.
+For the sake of completeness, the pattern is slightly different.
 The transformation matrix is now defined by
 $$
 T_i\left(q_i, x_i = l_{i-1}, y_i = 0\right) =
@@ -1330,12 +1331,12 @@ We kinda go from $\mathcal{F}\raisebox{-0.25em}{\footnotesize $i-1$}$ to frame $
 Note that $x_i \not= l_{i}$ but $x_i = l_{i-1}$.
 Is this any good?
 For now, it might be a confusing interpretation of the matrix concatenation.
-However, we will see in a future post that this is can be preferred way to derive a powerful algorithm.
+However, we will see in a future post that this can be preferred way to derive a powerful algorithm.
 
 Furthermore, since $l_{1-1} = l_0$ and $q_{2+1} = q_3$ are not explicitly given, we set them to zero.
 To do this makes sense.
 Think about it.
-Therefore, the previous concatenation is sandwiched with identy matrices.
+Therefore, the previous concatenation is sandwiched with identity matrices.
 
 
 ### Getting the Pose
@@ -1358,8 +1359,8 @@ q_1 + q_2
 \tag{7}
 ,
 $$
-which should not surprise ous.
-To be more confusing, the left-hand side of Eq.(7) is the pose $X$ and, the right-hand of Eq.(7) is the kinematics $f\left(\boldsymbol{q}\right)$ with $\boldsymbol{q} = \left[q_1, q_2\right]^\top$.
+which should not surprise us.
+To be more confusing, the left-hand side of Eq.(7) is the pose $X$ and, the right-hand side of Eq.(7) is the kinematics $f\left(\boldsymbol{q}\right)$ with $\boldsymbol{q} = \left[q_1, q_2\right]^\top$.
 
 
 
@@ -1375,7 +1376,7 @@ X(n = 2) =
 q_1 + q_2
 \end{bmatrix}
 $$
-for two links, _i.e._, $n = 2$, over 
+for two links, _i.e._, $n = 2$, then 
 $$
 X(n = 3) = 
 \begin{bmatrix}
@@ -1394,13 +1395,13 @@ q_1 + q_2 + q_3 + q_4
 \end{bmatrix}
 $$
 for four links, _i.e._, $n = 4$, we see a pattern emerging. 
-The pattern for the angle $\phi$ is a sum of all joints, whereas the pattern for $x$ and $y$ is a sum of weighted links with a sum of previous and current joins.
+The pattern for the angle $\phi$ is a sum of all joints, whereas the pattern for $x$ and $y$ is a sum of weighted links with a sum of previous and current joints.
 Without a proof, we can say with confident that 
 $$
 X(n) = 
 \begin{bmatrix}
-\sum_{i = 1}^n\cos\left(\sum_{i = 1}^k q_i\right)l_i   \\\\ 
-\sum_{i = 1}^n\sin\left(\sum_{i = 1}^k q_i\right)l_i  \\\\ 
+\sum_{i = 1}^n\cos\left(\sum_{j = 1}^k q_j\right)l_i   \\\\ 
+\sum_{i = 1}^n\sin\left(\sum_{j = 1}^k q_j\right)l_i  \\\\ 
 \sum_{i = 1}^n q_i
 \end{bmatrix}
 $$
@@ -1410,15 +1411,15 @@ $$
 X(n) = 
 \sum_{i = 1}^n
 \begin{bmatrix}
-\cos\left(\sum_{i = 1}^k q_i\right)l_i   \\\\ 
-\sin\left(\sum_{i = 1}^k q_i\right)l_i  \\\\ 
+\cos\left(\sum_{j = 1}^k q_j\right)l_i   \\\\ 
+\sin\left(\sum_{j = 1}^k q_j\right)l_i  \\\\ 
  q_i
 \end{bmatrix}
 \tag{8}
 ,
 $$
-highlighting that the pose is sum of the components.
-Think of extending the above sequence of image to $q_3$, $q_4$, $q_5$, and so on up to $q_n$.
+highlighting that the pose is the sum of its components.
+Think of extending the above sequence of images to $q_3$, $q_4$, $q_5$, and so on up to $q_n$.
 With this representation, you should be able to prove it using induction.
 
 
@@ -1429,17 +1430,17 @@ For example,
 - Is it important to point about that $q_i$ is a relative joint? Absolute joints? What is the different?
 - Can we use complex numbers instead?
 - How to derive the inverse kinematics?
-- What is the dynamics of this RR robot?
-- Two different ways to define DH parameters?
+- What are the dynamics of this RR robot?
+- Two different ways to define Denavit–Hartenberg (DH) parameters?
 - Are you hinting on the recursive Newton-Euler algorithm?
 
-Or, you might have questions regarding some stuff I skipped over.
+Or, you might have questions regarding some stuff I intentionally skipped over.
 For example,
 - What does kinematics mean?
 - What are trigonometric identities?
 - What is an end-effector?
 - Why are three indexes necessary to describe a vector?
-- What is a unit-sphere $q_i \in \mathbb{S}^1$?
+- What is a unit circle $q_i \in \mathbb{S}^1$?
 - Why are we using homogeneous transformation matrices?
 - How to use transformation matrices?
 - What are DH parameters?
@@ -1454,10 +1455,10 @@ For example,
 
 I draw the first image of an RR robot in html... 
 I'll not do it again :see_no_evil:
-So, I switched to inkscape and copy-paste the code.
+So, I switched to inkscape and copy-pasted the code.
 
-If a section of a text have to many $\LaTeX$ commands with underscores, consider switching to  ```\mathcal{F}\raisebox{-0.25em}{\footnotesize 0}``` and ```\mathcal{F}\raisebox{-0.25em}{\footnotesize EE}``` instead of using for instance ```\mathcal{F}_0```.
-I guess it's because of the many underscore characters and markdown breaks down.
+If a section of a text has too many $\LaTeX$ commands with underscores, consider switching to  ```\mathcal{F}\raisebox{-0.25em}{\footnotesize 0}``` and ```\mathcal{F}\raisebox{-0.25em}{\footnotesize EE}``` instead of using for instance ```\mathcal{F}_0```.
+I guess, it's because of the many underscore characters and markdown breaks down.
 Also, sometimes $\KaTeX$ goes crazy if I use
 ```
 $$
