@@ -787,18 +787,18 @@ It shows a stick figure of it.
        id="path1-3-4" /><g
        id="g2-6-7"
        transform="translate(-303.3779,63.631615)"><path
-         style="fill:none;stroke:#859900;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-9-7)"
+         style="fill:#859900;stroke:#859900;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-9-7)"
          d="m 20.584158,124.79332 v 29.77351"
          id="path2-1-4" /><path
-         style="fill:none;stroke:#dc322f;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-0-1-5)"
+         style="fill:#dc322f;stroke:#dc322f;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-0-1-5)"
          d="M 49.369538,153.60682 H 19.596028"
          id="path2-0-0-4" /></g><g
        id="g2-0-6-3"
        transform="rotate(-48.036641,-71.394329,349.24323)"><path
-         style="fill:none;stroke:#859900;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-6-4-9)"
+         style="fill:#859900;stroke:#859900;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-6-4-9)"
          d="m 20.584158,124.79332 v 29.77351"
          id="path2-2-3-0" /><path
-         style="fill:none;stroke:#dc322f;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-0-8-8-7)"
+         style="fill:#dc322f;stroke:#dc322f;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-0-8-8-7)"
          d="M 49.369538,153.60682 H 19.596028"
          id="path2-0-3-2-7" /></g><path
        style="fill:none;stroke:#268bd2;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -897,18 +897,18 @@ It shows a stick figure of it.
        id="path1-3-4-99" /><g
        id="g2-6-7-6"
        transform="translate(-52.185911,63.631615)"><path
-         style="fill:none;stroke:#859900;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-9-7-6)"
+         style="fill:#859900;stroke:#859900;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-9-7-6)"
          d="m 20.584158,124.79332 v 29.77351"
          id="path2-1-4-0" /><path
-         style="fill:none;stroke:#dc322f;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-0-1-5-6)"
+         style="fill:#dc322f;stroke:#dc322f;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-0-1-5-6)"
          d="M 49.369538,153.60682 H 19.596028"
          id="path2-0-0-4-2" /></g><g
        id="g2-0-6-3-7"
        transform="rotate(-48.036641,54.201666,67.392586)"><path
-         style="fill:none;stroke:#859900;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-6-4-9-5)"
+         style="fill:#859900;stroke:#859900;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-6-4-9-5)"
          d="m 20.584158,124.79332 v 29.77351"
          id="path2-2-3-0-6" /><path
-         style="fill:none;stroke:#dc322f;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-0-8-8-7-9)"
+         style="fill:#dc322f;stroke:#dc322f;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-0-8-8-7-9)"
          d="M 49.369538,153.60682 H 19.596028"
          id="path2-0-3-2-7-1" /></g><g
        id="page1-88"
@@ -1026,7 +1026,7 @@ It shows a stick figure of it.
          xlink:href="#g1-49-4"
          id="use2-6-8-5-6"
          style="fill:#268bd2;fill-opacity:1" /></g><path
-       style="fill:none;stroke:#268bd2;stroke-width:1;stroke-linecap:round;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#none;stroke:#268bd2;stroke-width:1;stroke-linecap:round;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1"
        d="M 328.2203,193.40262 V 154.62578"
        id="path3-2-6-0-4"
        sodipodi:nodetypes="cc" /><path
@@ -1039,18 +1039,18 @@ It shows a stick figure of it.
        id="path1-3-4-99-9" /><g
        id="g2-6-7-6-3"
        transform="translate(178.93148,63.631615)"><path
-         style="fill:none;stroke:#859900;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-9-7-6-3)"
+         style="fill:#859900;stroke:#859900;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-9-7-6-3)"
          d="m 20.584158,124.79332 v 29.77351"
          id="path2-1-4-0-6" /><path
-         style="fill:none;stroke:#dc322f;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-0-1-5-6-0)"
+         style="fill:#dc322f;stroke:#dc322f;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-0-1-5-6-0)"
          d="M 49.369538,153.60682 H 19.596028"
          id="path2-0-0-4-2-0" /></g><g
        id="g2-0-6-3-7-5"
        transform="rotate(-48.036641,169.76036,-191.9333)"><path
-         style="fill:none;stroke:#859900;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-6-4-9-5-0)"
+         style="fill:#859900;stroke:#859900;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-6-4-9-5-0)"
          d="m 20.584158,124.79332 v 29.77351"
          id="path2-2-3-0-6-0" /><path
-         style="fill:none;stroke:#dc322f;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-0-8-8-7-9-1)"
+         style="fill:#dc322f;stroke:#dc322f;stroke-width:2;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DartArrow-0-8-8-7-9-1)"
          d="M 49.369538,153.60682 H 19.596028"
          id="path2-0-3-2-7-1-2" /></g><g
        id="page1-8-4"
@@ -1458,7 +1458,7 @@ I'll not do it again :see_no_evil:
 So, I switched to inkscape and copy-pasted the code.
 
 If a section of a text has too many $\LaTeX$ commands with underscores, consider switching to  ```\mathcal{F}\raisebox{-0.25em}{\footnotesize 0}``` and ```\mathcal{F}\raisebox{-0.25em}{\footnotesize EE}``` instead of using for instance ```\mathcal{F}_0```.
-I guess, it's because of the many underscore characters and markdown breaks down.
+I guess, it's because of the many underscore characters and markdown breaks down :hear_no_evil:
 Also, sometimes $\KaTeX$ goes crazy if I use
 ```
 $$
@@ -1481,3 +1481,10 @@ x  \\\\ y \\\\ \phi
 ,
 $$
 ```
+
+
+**Edit:**
+
+Updated on Sep. 20, 2025: Caught some typos and grammar errors. 
+Also, I changed the color of arrow heads, _e.g._, `fill:none;stroke:#859900` to `fill:#859900;stroke:#859900`.
+A never-to-be-solved issue in inkscape :speak_no_evil:
