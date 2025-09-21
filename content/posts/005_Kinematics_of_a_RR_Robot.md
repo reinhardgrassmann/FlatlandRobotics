@@ -1488,3 +1488,4 @@ $$
 Updated on Sep. 20, 2025: Caught some typos and grammar errors. 
 Also, I changed the color of arrow heads, _e.g._, `fill:none;stroke:#859900` to `fill:#859900;stroke:#859900`.
 A never-to-be-solved issue in inkscape :speak_no_evil:
+Okay, it turns out that this is a Safari browser problem.
